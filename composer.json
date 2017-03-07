@@ -1,0 +1,24 @@
+{
+    "name": "cronci/Report",
+    "description": "Realizzazione Task per Doing",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Corrado",
+            "email": "sorciulus@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "^5.5 || ^7.0",
+        "phpunit/phpunit": "5.4.*",
+        "pear/console_table": "*"
+    },
+    "autoload":{
+        "psr-4":{
+            "Report\\":"vendor/cronci/Report/src/",
+            "Currency\\":"vendor/cronci/Currency/src"
+        }
+    }
+}
+
